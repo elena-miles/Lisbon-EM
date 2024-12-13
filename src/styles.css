@@ -52,6 +52,27 @@ background-color: white;
 text-decoration: none;
 display: inline-block;
 }
+ul{
+    text-decoration: none !important;
+}
+li a {
+    text-decoration: none;
+}
+
+footer{ 
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), 
+    url('../src/images/lisbonCitySky.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.col{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+}
+
 @media(max-width:900px){
     header{
         padding: 60px 0;
@@ -62,5 +83,9 @@ display: inline-block;
     }
     h2{
         font-size: 20px;
+    }
+    .col{
+        grid-template-columns: 1fr;
+
     }
 }
