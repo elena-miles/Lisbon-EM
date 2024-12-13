@@ -92,7 +92,7 @@ text-align: left;
 
 .grid{
 display: grid;
-grid-template-columns: 1.3fr 2fr 2fr;
+grid-template-columns: 1.4fr 2fr 2fr;
 color: white;
 grid-gap:40px;
 padding: 64px 142px ;
@@ -110,4 +110,11 @@ margin: 0;
     h2{
         font-size: 20px;
     }
-}
+    h3{
+    font-size: 16px;
+    }
+    .grid{
+        grid-template-columns: 1fr;
+        padding: 20px 20px 20px 20px !important;
+    }
+    }
