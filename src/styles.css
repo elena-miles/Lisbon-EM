@@ -135,11 +135,19 @@ background-size: cover;
 }
 
 .cafe-section{
-background: rgba(248, 248, 248, 1);
+background:rgba(248, 248, 248, 1) !important;
+margin:0 auto;
+padding: 100px 0;
+max-width: 1512px ;
 }
 .cafes{
 text-align: center !important;
 display: block;
+}
+
+.grid-3-columns{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 
