@@ -149,7 +149,7 @@ background-size: cover;
 .cafe-section{
 background:rgba(248, 248, 248, 1) !important;
 margin:0 auto;
-padding: 100px 0;
+padding: 100px 20px;
 max-width: 1512px ;
 }
 .cafes h3, h2 {
@@ -158,27 +158,35 @@ display: block;
 }
 
 .grid-3-columns{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-    padding: 64px 117px 64px 117px;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 20px;
+padding: 64px 20px;
 }
+
 .card{
-    background-color: white;
+background-color: white;
+margin: 0;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin:0;
+height: 100%;
 }
 .button{
-    display: block;
-    padding: 16px;
-    text-decoration: none;
-    background: rgba(70, 44, 178, 1);
-    text-transform: uppercase;
-    color: white;
-    text-align: center;
-    margin: 0 auto;
+display: block;
+padding: 16px;
+text-decoration: none;
+background: rgba(70, 44, 178, 1);
+text-transform: uppercase;
+color: white;
+text-align: center;
+margin: 20px auto 0;
 }
 .card-body{
-padding: 20 px auto !important;
-margin: 30px;
+padding: 20px;
+margin: 0px;
+flex-grow: 1;
 }
 
 
