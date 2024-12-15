@@ -120,6 +120,18 @@ opacity: 70%;
 margin: 0;
 }
 
+h4{
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+}
+
+h5{
+font-size: 13px;
+font-weight: 700;
+line-height: 19.5px;   
+}
+
 .primary-section-grid {
 display: grid;
 grid-template-columns: 1fr 1fr;
@@ -140,7 +152,7 @@ margin:0 auto;
 padding: 100px 0;
 max-width: 1512px ;
 }
-.cafes{
+.cafes h3, h2 {
 text-align: center !important;
 display: block;
 }
@@ -148,6 +160,25 @@ display: block;
 .grid-3-columns{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 64px 117px 64px 117px;
+}
+.card{
+    background-color: white;
+}
+.button{
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    background: rgba(70, 44, 178, 1);
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+.card-body{
+padding: 20 px auto !important;
+margin: 30px;
 }
 
 
