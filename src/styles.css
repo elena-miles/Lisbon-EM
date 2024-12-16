@@ -124,6 +124,8 @@ h4{
 font-size: 24px;
 font-weight: 700;
 line-height: 36px;
+margin-top: 0 !important;
+margin-bottom: 10px !important;
 }
 
 h5{
@@ -149,7 +151,7 @@ background-size: cover;
 .cafe-section{
 background:rgba(248, 248, 248, 1) !important;
 margin:0 auto;
-padding: 100px 20px;
+padding: 40px 171px;
 max-width: 1512px ;
 }
 .cafes h3, h2 {
@@ -162,6 +164,8 @@ display: grid;
 grid-template-columns: repeat(3, 1fr);
 grid-gap: 20px;
 padding: 64px 20px;
+grid-auto-rows: 1fr;
+align-items: start;
 }
 
 .card{
@@ -172,6 +176,11 @@ flex-direction: column;
 justify-content: space-between;
 margin:0;
 height: 100%;
+display: flex;
+}
+.card-header img {
+    display: block;
+    margin: 0;
 }
 .button{
 display: block;
