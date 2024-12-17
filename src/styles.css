@@ -175,6 +175,8 @@ flex-direction: column;
 margin:0 !important;
 height: 100%;
 overflow: hidden;
+max-height: 698px !important;
+max-width: 370px;
 }
 .card-header img, 
 .card-header .embed {
@@ -200,11 +202,14 @@ background: rgba(70, 44, 178, 1);
 text-transform: uppercase;
 color: white;
 text-align: center;
-margin: 20px auto 0;
+margin-top: auto;
 }
 .card-body{
 padding: 20px;
 margin: 0px;
+display: flex;
+flex-direction: column;
+flex: 1;
 }
 
 
@@ -231,6 +236,9 @@ margin: 0px;
     }
     .grid-3-columns{
     grid-template-columns: 1fr;
+  
+    }
+    .cafe-section{
     padding: 20px auto;
     margin: 0 auto;
     }
