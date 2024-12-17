@@ -224,9 +224,14 @@ flex: 1;
 .instagram-media {
 display: block;
 width: 100%;
-max-width: 370px;
-height: auto;
+max-width: 370px !important;
+max-height: 370px !important;
 margin: 0 auto;
+}
+.gallery-grid{
+display: flex;
+grid-gap:30px !important; 
+
 }
 
 @media(max-width:900px){
