@@ -228,10 +228,11 @@ max-width: 370px !important;
 max-height: 370px !important;
 margin: 0 auto;
 }
-.gallery-grid{
+.gallery-grid-container{
 display: flex;
-grid-gap:30px !important; 
-
+max-width: 1170px;
+height: 923px;
+padding-left: 171px;
 }
 
 @media(max-width:900px){
