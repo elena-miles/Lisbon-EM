@@ -95,7 +95,7 @@ grid-gap: 64px;
 margin: 0;
 }
 
-main h2{
+section h2{
 font-size: 16px;
 font-weight: 700;
 line-height: 24px;
@@ -104,7 +104,7 @@ text-align: left;
 color: black;
 opacity: 30%;
 }
-main h3{
+section h3{
 font-size: 40px;
 font-weight: 700;
 line-height: 1.5;
@@ -113,7 +113,7 @@ letter-spacing: 1px;
 color:rgba(39, 32, 68, 1);
 ;
 }
-main p{
+section p{
 font-size: 16px;
 font-weight: 400;
 line-height: 1.3;
@@ -121,7 +121,7 @@ text-align: left;
 opacity: 70%;
 }
 
-h4{
+section h4{
 font-size: 24px;
 font-weight: 700;
 line-height: 1;
@@ -129,7 +129,7 @@ margin-top: 0 !important;
 margin-bottom: 10px !important;
 }
 
-h5{
+section h5{
 font-size: 13px;
 font-weight: 700;
 line-height: 19.5px; 
@@ -152,18 +152,17 @@ background-size: cover;
 
 .cafe-section{
 background:rgba(248, 248, 248, 1) !important;
-margin:0 auto;
 padding: 40px 171px;
 max-width: 1512px ;
+text-align: center;
 }
 
-.cafe h3, 
-.cafe h2, 
-.image-section h3, 
-.image-section h2 {
+.cafes,
+.image-section {
 text-align: center !important;
 display: block;
 }
+
 
 .grid-3-columns{
 display: grid;
@@ -225,7 +224,7 @@ max-height: 370px !important;
 margin: 0 auto;
 overflow: hidden;
 }
-.image-section{
+.instagram-gallery{
 display: block;
 margin: 0 auto;
 text-align: center;
@@ -234,9 +233,12 @@ text-align: center;
 display: block;
 max-width: 1170px;
 height: 950px;
-padding:64px 171px 80px 171 px;
+padding:64px 171px 80px 171px;
 text-align: center !important;
 margin: 0 auto;
+}
+.footer-message{
+    color: black;
 }
 
 @media(max-width:900px){
