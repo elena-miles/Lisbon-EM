@@ -237,8 +237,14 @@ padding:64px 171px 80px 171px;
 text-align: center !important;
 margin: 0 auto;
 }
+.footer-header h4{
+font-size: 20px !important;
+text-align: left;
+color: rgba(255, 255, 255, 1) !important;
+}
 .footer-message{
     color: black;
+    text-align: center;
 }
 
 @media(max-width:900px){
