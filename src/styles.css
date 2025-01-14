@@ -275,7 +275,7 @@ margin: 0 auto;
 padding: 10px 0 !important;
 }
 header {
-padding: 15px auto;
+padding: 0 15px auto;
 }
 
 h1 {
@@ -315,6 +315,7 @@ margin: auto;
 padding: 5px;
 grid-template-columns: 1fr;
 text-align: center;
+grid-gap:0;
 }
 .embed{
 display: none;
@@ -324,12 +325,18 @@ display: none;
 width: 100%;
 max-height: 200px;
 object-fit: cover;
-padding: 0 20px;
+padding: 0;
 }
 
-.instagram-grid .instagram-media {
-width: 50% !important;
-aspect-ratio: 1 / 1;
-max-width: 100px !important;
+.instagram-media {
+max-width: 50% !important;
+width: 90px !important ;
+margin: 0 auto !important;
+}
+.gallery-grid-container {
+grid-template-columns: 1fr 1fr;
+grid-gap:5px;
+max-width: 100%;
+margin: 0 auto;
 }
 }
