@@ -1,6 +1,7 @@
 .container{
 max-width: 1512px;
-margin: 0 auto;
+max-height: 100%;
+margin: 0 auto !important;
 background-color: white;
 }
 body{
@@ -8,7 +9,7 @@ font-family: "Poppins", sans-serif;
 }
 header {
 max-width: 1512px;
-max-height: 900px;
+max-height: auto;
 margin: 0 auto;
 background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
 url('../src/images/hero.png');
@@ -242,11 +243,12 @@ overflow:hidden;
 display: block;
 margin: 0 auto;
 text-align: center;
+max-height: fit-content;
 }
 .gallery-grid-container{
 display: block;
 max-width: 1170px;
-height: 950px;
+max-height: 900px;
 padding:64px 171px 80px 171px;
 text-align: center !important;
 margin: 0 auto;
