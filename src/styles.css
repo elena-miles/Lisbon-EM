@@ -263,13 +263,8 @@ color: rgba(255, 255, 255, 1) !important;
 
 @media(max-width: 900px){
 
-body{
-padding: 25px 25px 25px 25px;
-text-align: center;
-margin: 0 auto;
-}
 img {
-max-width:100%;
+max-width: 100%;
 height: auto;
 margin: 0 auto;
 padding: 10px 0 !important;
@@ -292,9 +287,6 @@ padding: 8px 15px auto;
 letter-spacing: 1px;
 }
 
-section{
-padding: 0 auto !important;
-}
 .card-header .grid-2-columns {
 grid-template-columns: 1fr;
 padding: 0 auto !important;
@@ -332,9 +324,10 @@ padding: 0;
 max-width: 50% !important;
 width: 90px !important ;
 margin: 0 auto !important;
+aspect-ratio: 16/9;
+grid-template-columns: 1fr 1fr;
 }
 .gallery-grid-container {
-grid-template-columns: 1fr 1fr;
 grid-gap:5px;
 max-width: 100%;
 margin: 0 auto;
