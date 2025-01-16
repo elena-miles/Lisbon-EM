@@ -2,6 +2,7 @@
 max-width: 1512px;
 margin: 0 auto;
 background-color: white;
+max-height: fit-content !important;
 }
 body{
 font-family: "Poppins", sans-serif;
@@ -246,7 +247,7 @@ text-align: center;
 .gallery-grid-container{
 display: block;
 max-width: 1170px;
-max-height: 1260px !important;
+max-height: auto !important;
 padding:64px 171px 80px 171px;
 text-align: center !important;
 margin: 0 auto;
